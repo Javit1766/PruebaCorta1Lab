@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.top-bar {
+  background-color: #f3f3f3;
+  padding: 5px 20px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-links a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007BFF;
+}
+
+.search-box {
+  flex: 1;
+  margin: 0 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.user-links a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #007BFF;
+}
+
+.nav-categories {
+  background-color: #e9f5ff;
+  padding: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.nav-categories button {
+  padding: 8px 12px;
+  background-color: white;
+  border: 1px solid #007BFF;
+  color: #007BFF;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e2a4a;
+  color: white;
+  padding: 40px 20px;
+}
+
+.banner-text h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.banner-text h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.banner-text p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.banner-img {
+  width: 200px;
+}
