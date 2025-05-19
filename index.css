@@ -3,21 +3,21 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.top-bar {
-  background-color: #f3f3f3;
-  padding: 5px 20px;
-  font-size: 14px;
+.top {
+  background-color: #F5F5F5;
+  padding: 5px 60px;
+  font-size:1px;
   display: flex;
   justify-content: space-between;
 }
 
-.top-links a {
-  margin-left: 15px;
-  text-decoration: none;
-  color: #333;
+.top-links {
+  margin-left: 30px;
+  color: #666666;
+  padding: 0.1px;
 }
 
-.main-header {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,12 +31,7 @@ body {
   color: #007BFF;
 }
 
-.search-box {
-  flex: 1;
-  margin: 0 20px;
-  padding: 10px;
-  font-size: 16px;
-}
+
 
 .user-links a {
   margin-left: 15px;
@@ -54,20 +49,26 @@ body {
 
 .nav-categories button {
   padding: 8px 12px;
-  background-color: white;
-  border: 1px solid #007BFF;
-  color: #007BFF;
+  background-color: #F3F9FB;
+  border: 1px solid #F3F9FB;
+  color: #000000;
   border-radius: 5px;
   cursor: pointer;
+  border-radius: 20px;
+}
+.nav-categories button:hover {
+    background-color: #008ECC;
 }
 
 .banner {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1e2a4a;
+  background-color: #212844;
   color: white;
-  padding: 40px 20px;
+  padding: 40px 200px;
+  margin: 30px;
+  border-radius: 20px;
 }
 
 .banner-text h2 {
@@ -87,4 +88,5 @@ body {
 
 .banner-img {
   width: 200px;
+  height: 200PX ;
 }
