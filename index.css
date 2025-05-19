@@ -45,6 +45,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+
+  display: flex;
+  justify-content: center;
 }
 
 .nav-categories button {
@@ -84,9 +87,4 @@ body {
 .banner-text p {
   font-size: 18px;
   margin-top: 10px;
-}
-
-.banner-img {
-  width: 200px;
-  height: 200PX ;
 }
